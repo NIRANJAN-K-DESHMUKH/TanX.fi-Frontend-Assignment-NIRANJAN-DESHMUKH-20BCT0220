@@ -1,0 +1,64 @@
+.topbarContainer {
+    width: 100%;
+    height: 75px;
+    background-color: #237bef;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.topbarLeft {
+    padding: 0 15%;
+    flex: 6;
+}
+
+.topbarTitle {
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+
+.topbarLinks {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.topbarLink {
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+.topbarCartIcon {
+    color: #0A376D;
+    display: flex;
+    position: relative;
+}
+
+.topbarCartIconNotify {
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 50%;
+    position: absolute; 
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

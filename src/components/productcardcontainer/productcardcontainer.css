@@ -1,0 +1,9 @@
+.productCardsContainer {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #E5EEF8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

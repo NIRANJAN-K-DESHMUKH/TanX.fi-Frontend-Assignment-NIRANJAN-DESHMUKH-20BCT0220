@@ -1,0 +1,77 @@
+.registerCard {
+    width: 450px;
+    height: 400px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 6px 6px rgb(200, 204, 212);
+}
+
+.registerForm {
+    margin: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerTitle {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.formItem {
+    margin-bottom: 20px;
+}
+
+.inpt {
+    height: 40px;
+    padding: 2%;
+    padding-left: 5%;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    background-color: #E5EEF8;
+    font-size: 17px;
+    font-weight: 400;
+    color: #271c4d;
+}
+
+input:focus {
+    outline: none;
+}
+
+.registerBtn {
+    background-color: #237bef;
+    color: white;
+    border: none;
+    border-radius: 20px;    
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;  
+}
+
+button:hover {
+    background-color: #276bc3;
+    box-shadow: 10px 10px 10px #d0d2de;
+}
+
+button:active {
+    transform: scale(0.9); 
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px #d0d2de;
+}
+
+.registerFormBtm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registerLink {
+    width: 200px;
+    color: #2d7ce2;
+    font-size: 16px;
+    cursor: pointer;
+}

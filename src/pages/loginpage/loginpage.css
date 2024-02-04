@@ -1,0 +1,9 @@
+.loginCardContainer {
+    width: 100%;
+    height: calc(100vh - 75px);
+    margin: 0;
+    background-color: #E5EEF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

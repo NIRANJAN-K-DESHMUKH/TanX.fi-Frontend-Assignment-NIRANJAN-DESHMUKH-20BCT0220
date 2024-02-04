@@ -1,0 +1,99 @@
+.detailPageContainer {
+    width: 100%;
+    height: calc(100vh - 75px);
+    margin: 0;
+    background-color: #E5EEF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailWrapper {
+    margin: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    object-fit: cover;
+}
+
+.detailsDiv {
+    margin: auto 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsTop {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-left: 3px solid rgb(216, 216, 216);
+    color: rgb(90, 90, 90);
+    margin-bottom: 7%;
+}
+
+.detailItem {
+    margin: 20px;
+}
+
+.detailsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.detailIcon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.detailsDesc {
+    font-size: 15px;
+}
+
+.detailsPrice {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detailsBtm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    border-left: 3px solid rgb(216, 216, 216);
+}
+
+button {
+    width: 125px;
+    height: 55px;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid rgb(90, 90, 90);
+    cursor: pointer;
+}
+
+.buyBtn {
+    color: rgb(90, 90, 90);
+}
+
+.addBtn {
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
